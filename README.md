@@ -1,4 +1,41 @@
 
+## Getting Started
+
+To get started with the project, follow these steps:
+
+### Download the Project
+
+Clone this repository to your local machine by running the following command in your terminal:
+
+`git clone https://github.com/amitaiturkel/Deep-Learning-for-Image-Classification-CNNs-vs.-MLPs-Study.git`
+go to Deep-Learning-for-Image-Classification-CNNs-vs.-MLPs-Study folder 
+
+### Set Up the Virtual Environment
+
+Activate a virtual environment to isolate the project's dependencies. If you're using `virtualenv`, you can create and activate the environment with the following commands:
+
+`python3 -m venv .venv` 
+or run `python -m venv .venv`
+and then
+`source .venv/bin/activate`
+
+
+### Install Dependencies
+
+Use `poetry` to install the project's dependencies:
+
+`poetry install`
+
+### GUI BUGS
+
+If you encounter issues with the graphical user interface (GUI) while running the project through a virtual machine (VM), particularly related to `matplotlib.pyplot`, please note that the VM environment may have limitations or configurations that affect GUI rendering.
+
+To resolve this issue, it's recommended to run the script directly on your local machine instead of through a VM. This should help ensure proper functionality and display of the GUI components.
+
+To install the required dependencies witout poetry, use the following command:
+
+`pip install matplotlib torch scikit-learn pandas numpy` 
+
 
 ## 6 Multi-Layer Perceptrons
 
