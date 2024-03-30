@@ -19,6 +19,13 @@ or run `python -m venv .venv`
 and then
 `source .venv/bin/activate`
 
+### Why "whichfaceisreal.zip" is Needed
+
+The file `whichfaceisreal.zip` contains the photos on which the model is trained. These images are essential for training the models and evaluating their performance. Without these images, the project won't be able to run properly as it relies on this dataset for training and testing.
+
+### Accessing "whichfaceisreal.zip"
+
+After cloning the repository, navigate to the `Deep-Learning-for-Image-Classification-CNNs-vs.-MLPs-Study` folder. You can find the `whichfaceisreal.zip` file in the project directory. Extract the contents of this zip file to access the images.
 
 ### Install Dependencies
 
